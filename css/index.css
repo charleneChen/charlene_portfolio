@@ -30,6 +30,7 @@ section {
 h1,
 h2 {
     font-weight: 300;
+    margin-top: 0;
 }
 
 h1 {
@@ -43,6 +44,11 @@ h2 {
 h3 {
     font-size: 36px;
     font-weight: 900;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
 }
 
 .small-text {
@@ -70,4 +76,9 @@ a {
 a:hover,
 a:focus {
     color: #131313;
+}
+
+.dark-mode {
+    background-color: #252525;
+    color: #fff;
 }
