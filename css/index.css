@@ -58,16 +58,22 @@ p {
     font-size: 16px;
 }
 
-.bold-text {
+.accent-text,
+.name,
+time {
     font-weight: 900;
+    color: #99d930;
+}
+
+.accent-text {
     display: block;
 }
 
-h1 .bold-text {
+h1 .accent-text {
     font-size: 80px;
 }
 
-h2.bold-text {
+h2.accent-text {
     font-size: 60px;
 }
 
@@ -99,4 +105,10 @@ a:focus {
 .btn:focus {
     background-color: #252525;
     color: #fff;
+}
+
+.dark-mode .btn:hover,
+.dark-mode .btn:focus {
+    background-color: #fff;
+    color: #252525;
 }
