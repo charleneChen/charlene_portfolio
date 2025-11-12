@@ -10,6 +10,12 @@ section {
     padding: 100px 0;
 }
 
+img {
+    border-radius: 50%;
+    border: 10px solid #fff;
+    width: 300px;
+}
+
 .container {
     width: 570px;
     margin: 0 auto;
