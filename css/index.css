@@ -6,13 +6,13 @@ body {
     font-weight: 300;
 }
 
-main {
-    width: 570px;
-    margin: 0 auto;
-}
-
 section {
     padding: 100px 0;
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
 }
 
 .title-section {
